@@ -179,6 +179,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 73.474
       objectReference: {fileID: 0}
+    - target: {fileID: -5401271877751119579, guid: d373038051eb6dd4e914d28686e13545, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 4f4d16b3d5d235947a6c65879a2b4539, type: 2}
     - target: {fileID: 919132149155446097, guid: d373038051eb6dd4e914d28686e13545, type: 3}
       propertyPath: m_Name
       value: skinned_rounded_rectangle (6)
@@ -510,6 +514,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 73.309
       objectReference: {fileID: 0}
+    - target: {fileID: -5401271877751119579, guid: d373038051eb6dd4e914d28686e13545, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 4f4d16b3d5d235947a6c65879a2b4539, type: 2}
     - target: {fileID: 919132149155446097, guid: d373038051eb6dd4e914d28686e13545, type: 3}
       propertyPath: m_Name
       value: skinned_rounded_rectangle (9)
@@ -1056,6 +1064,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 73.309
       objectReference: {fileID: 0}
+    - target: {fileID: -5401271877751119579, guid: d373038051eb6dd4e914d28686e13545, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d2134ef8969af8a4f892e4a326511ba0, type: 2}
     - target: {fileID: 919132149155446097, guid: d373038051eb6dd4e914d28686e13545, type: 3}
       propertyPath: m_Name
       value: skinned_rounded_rectangle (8)
@@ -1532,6 +1544,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 69.29
       objectReference: {fileID: 0}
+    - target: {fileID: -5401271877751119579, guid: d373038051eb6dd4e914d28686e13545, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b5eb26b64d45cab45867184ecaabf2ed, type: 2}
     - target: {fileID: 919132149155446097, guid: d373038051eb6dd4e914d28686e13545, type: 3}
       propertyPath: m_Name
       value: skinned_rounded_rectangle (7)
@@ -2888,6 +2904,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 72.356
       objectReference: {fileID: 0}
+    - target: {fileID: -5401271877751119579, guid: d373038051eb6dd4e914d28686e13545, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e6be51ad2f13c8646abc6583680e616c, type: 2}
     - target: {fileID: 919132149155446097, guid: d373038051eb6dd4e914d28686e13545, type: 3}
       propertyPath: m_Name
       value: skinned_rounded_rectangle (5)
@@ -3783,6 +3803,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8229714192486028619, guid: c6439f6955081fe4e82ecf9618965113, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 51fb939372a9f664ca50966ff48d38ad, type: 2}
     - target: {fileID: 919132149155446097, guid: c6439f6955081fe4e82ecf9618965113, type: 3}
       propertyPath: m_Name
       value: F
