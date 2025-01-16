@@ -1,28 +1,36 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class RotateRing : MonoBehaviour
+public class AnilloGiratorio : MonoBehaviour
 {
-    public float rotationSpeed = 10f; // Rotation speed of the object
-    public float movementSpeed = 5f; // Movement speed of the object
-    public float movementRange = 2f; // Range of movement of the object
-    public float radius = 1f; // Radius of the object
+    // Velocidad de rotación del anillo
+    public float velocidadRotacionX = 10f;
+    public float velocidadRotacionY = 10f;
+    public float velocidadRotacionZ = 10f;
 
-    private float angle = 0f; // Angle of the object
-
-    private void Update()
+    // Corrutina para girar el anillo
+    private void Start()
     {
-        // Calculate the angle of the object
-        angle += rotationSpeed * Time.deltaTime;
+        StartCoroutine(GirarAnillo());
+    }
 
-        // Calculate the position of the object
-        float x = Mathf.Cos(angle) * radius;
-        float z = Mathf.Sin(angle) * radius;
+    // Corrutina para girar el anillo
+    private IEnumerator GirarAnillo()
+    {
+        while (true)
+        {
+            // Rotar el anillo en X
+            transform.Rotate(Vector3.right, velocidadRotacionX * Time.deltaTime);
 
-        // Ensure the object stays within the movement range
-        x = Mathf.Clamp(x, -movementRange, movementRange);
-        z = Mathf.Clamp(z, -movementRange, movementRange);
+            // Rotar el anillo en Y
+            transform.Rotate(Vector3.up, velocidadRotacionY * Time.deltaTime);
 
-        // Set the position of the object
-        transform.position = new Vector3(x, 0f, z);
+            // Rotar el anillo en Z
+            transform.Rotate(Vector3.forward, velocidadRotacionZ * Time.deltaTime);
+
+            // Esperar un poco antes de girar de nuevo
+            yield return null;
+        }
     }
 }
