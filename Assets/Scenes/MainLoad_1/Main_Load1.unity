@@ -180,7 +180,8 @@ MonoBehaviour:
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 493497e59bd6a5748b5781b1b5d2dfaf, type: 2}
   m_sharedMaterial: {fileID: -6459006995487503396, guid: 493497e59bd6a5748b5781b1b5d2dfaf, type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: -6459006995487503396, guid: 493497e59bd6a5748b5781b1b5d2dfaf, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -656,6 +657,30 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: a6f3c748d54b58240b002a7be3d39bff, type: 2}
+    - target: {fileID: -447275898630060098, guid: f794d0037c78ce34eb0f0ff2ac9ba5a8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 13616.683
+      objectReference: {fileID: 0}
+    - target: {fileID: -447275898630060098, guid: f794d0037c78ce34eb0f0ff2ac9ba5a8, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 15682.155
+      objectReference: {fileID: 0}
+    - target: {fileID: -447275898630060098, guid: f794d0037c78ce34eb0f0ff2ac9ba5a8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 16566.828
+      objectReference: {fileID: 0}
+    - target: {fileID: -447275898630060098, guid: f794d0037c78ce34eb0f0ff2ac9ba5a8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -447275898630060098, guid: f794d0037c78ce34eb0f0ff2ac9ba5a8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -447275898630060098, guid: f794d0037c78ce34eb0f0ff2ac9ba5a8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.96
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f794d0037c78ce34eb0f0ff2ac9ba5a8, type: 3}
       propertyPath: m_Name
       value: AHAA_YOGA
