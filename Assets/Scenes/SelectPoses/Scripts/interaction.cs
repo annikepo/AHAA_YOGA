@@ -2,45 +2,51 @@ using UnityEngine;
 
 public class VRControllerInteraction : MonoBehaviour
 {
-    public GameObject Malasana;
-    public GameObject Vrksasana;
-    public GameObject Utkatasana;
-    public GameObject UtthitaTrikonasana;
-    public GameObject UtkataKonasana;
-    public GameObject BoxBase_collider;
-
     void Update()
     {
-        // Check for interaction with each object
-        if (Input.GetButtonDown("Malasana") && Malasana != null)
+        // Existing code in the first Update method
+        if (Input.GetButtonDown("Malasana"))
         {
-            // Move to Malasana object
-            transform.position = Malasana.transform.position;
+            Debug.Log("Malasana button pressed");
+            // Your code for Malasana input
         }
-        else if (Input.GetButtonDown("Vrksasana") && Vrksasana != null)
+
+        if (Input.GetButtonDown("Vrksasana"))
         {
-            // Move to Vrksasana object
-            transform.position = Vrksasana.transform.position;
+            Debug.Log("Vrksasana button pressed");
+            // Your code for Vrksasana input
         }
-        else if (Input.GetButtonDown("Utkatasana") && Utkatasana != null)
+
+        if (Input.GetButtonDown("Utkatasana"))
         {
-            // Move to Utkatasana object
-            transform.position = Utkatasana.transform.position;
+            Debug.Log("Utkatasana button pressed");
+            // Your code for Utkatasana input
         }
-        else if (Input.GetButtonDown("UtthitaTrikonasana") && UtthitaTrikonasana != null)
+
+        if (Input.GetButtonDown("Utthita Trikonasana"))
         {
-            // Move to UtthitaTrikonasana object
-            transform.position = UtthitaTrikonasana.transform.position;
+            Debug.Log("Utthita Trikonasana button pressed");
+            // Your code for Utthita Trikonasana input
         }
-        else if (Input.GetButtonDown("UtkataKonasana") && UtkataKonasana != null)
+
+        if (Input.GetButtonDown("Utkata Konasana"))
         {
-            // Move to UtkataKonasana object
-            transform.position = UtkataKonasana.transform.position;
+            Debug.Log("Utkata Konasana button pressed");
+            // Your code for Utkata Konasana input
         }
-        else if (Input.GetButtonDown("BoxBase_collider") && BoxBase_collider != null)
+
+        if (Input.GetButtonDown("Box Base_collider"))
         {
-            // Move to BoxBase_collider object
-            transform.position = BoxBase_collider.transform.position;
+            Debug.Log("Box Base_collider button pressed");
+            // Your code for Box Base_collider input
         }
+
+        // Code from the second Update method
+        // if you have any additional logic, include it here
     }
 }
+
+
+
+
+
