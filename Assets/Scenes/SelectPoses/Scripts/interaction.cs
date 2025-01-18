@@ -1,52 +1,35 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
-public class VRControllerInteraction : MonoBehaviour
+public class PoseGrabDropAndSceneTransition : MonoBehaviour
 {
+    private bool isPoseInside = false;
+
+    void OnTriggerEnter(Collider other)
+    {
+        XRGrabInteractable grabInteractable = other.GetComponent<XRGrabInteractable>();
+
+        // Check if the object entering the trigger is a Pose and is not being held
+        if (!other.CompareTag("Pose") || grabInteractable == null || grabInteractable.isSelected)
+        {
+            return;
+        }
+
+        Debug.Log(other.name + " entered the Box Base_collider");
+        isPoseInside = true;
+    }
+
     void Update()
     {
-        // Existing code in the first Update method
-        if (Input.GetButtonDown("Malasana"))
+        if (isPoseInside)
         {
-            Debug.Log("Malasana button pressed");
-            // Your code for Malasana input
+            Debug.Log("Loading next scene...");
+            // Move to the next scene
+            SceneManager.LoadScene("NextSceneName"); // Replace "NextSceneName" with the actual scene name
         }
-
-        if (Input.GetButtonDown("Vrksasana"))
-        {
-            Debug.Log("Vrksasana button pressed");
-            // Your code for Vrksasana input
-        }
-
-        if (Input.GetButtonDown("Utkatasana"))
-        {
-            Debug.Log("Utkatasana button pressed");
-            // Your code for Utkatasana input
-        }
-
-        if (Input.GetButtonDown("Utthita Trikonasana"))
-        {
-            Debug.Log("Utthita Trikonasana button pressed");
-            // Your code for Utthita Trikonasana input
-        }
-
-        if (Input.GetButtonDown("Utkata Konasana"))
-        {
-            Debug.Log("Utkata Konasana button pressed");
-            // Your code for Utkata Konasana input
-        }
-
-        if (Input.GetButtonDown("Box Base_collider"))
-        {
-            Debug.Log("Box Base_collider button pressed");
-            // Your code for Box Base_collider input
-        }
-
-        // Code from the second Update method
-        // if you have any additional logic, include it here
     }
 }
-
-
 
 
 
