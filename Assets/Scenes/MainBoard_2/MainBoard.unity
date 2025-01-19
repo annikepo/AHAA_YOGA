@@ -4541,7 +4541,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
@@ -4631,7 +4631,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 10, y: 2.220446e-16, z: 10}
   m_Center: {x: 0, y: 0.31, z: 0}
@@ -4715,7 +4715,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &557772873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4770,12 +4770,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 557772872}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.0045821727, y: 0.38370302, z: -0.00630644, w: 0.92342365}
+  m_LocalPosition: {x: -0.19022885, y: -654.3341, z: -5936.266}
+  m_LocalScale: {x: 419.33936, y: 251.38173, z: 416.8325}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 965867490}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &568921489
 GameObject:
@@ -8583,6 +8583,7 @@ RectTransform:
   - {fileID: 1904054018}
   - {fileID: 154248643}
   - {fileID: 638436871}
+  - {fileID: 557772875}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -0.208, y: -45.13, z: 0.869}
   m_AnchorMin: {x: 0, y: 0}
@@ -15478,7 +15479,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 51fb939372a9f664ca50966ff48d38ad, type: 2}
     - target: {fileID: 919132149155446097, guid: c6439f6955081fe4e82ecf9618965113, type: 3}
       propertyPath: m_Name
-      value: F
+      value: mandala
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c6439f6955081fe4e82ecf9618965113, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -17851,4 +17856,3 @@ SceneRoots:
   - {fileID: 258924245}
   - {fileID: 158079670}
   - {fileID: 1097481990}
-  - {fileID: 557772875}
