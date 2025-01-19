@@ -4,7 +4,10 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - MainLoad
+  - Malasana
+  - Vrksasana
+  - Utthita Trikonasana
+  - UtkataKonasana
   layers:
   - Default
   - TransparentFX
@@ -49,5 +52,3 @@ TagManager:
   - Light Layer 3
   - Light Layer 4
   - Light Layer 5
-  - Light Layer 6
-  - Light Layer 7
