@@ -8,6 +8,7 @@ TagManager:
   - Vrksasana
   - Utthita Trikonasana
   - UtkataKonasana
+  - metablock
   layers:
   - Default
   - TransparentFX
