@@ -266,6 +266,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5923997274985596922, guid: f54012181eacade4ea242c65f804720f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1133896525}
+    - targetCorrespondingSourceObject: {fileID: 5923997274985596922, guid: f54012181eacade4ea242c65f804720f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1133896527}
     - targetCorrespondingSourceObject: {fileID: 4543456757522008391, guid: f54012181eacade4ea242c65f804720f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 849698973}
@@ -6755,6 +6758,18 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.4
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1133896527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133896522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f321009dc4e577f49b282f21c6cd70c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1135008560
 GameObject:
   m_ObjectHideFlags: 0
@@ -10636,11 +10651,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2040542448765327740, guid: afb2355c8c3904144bb408de6f0cba59, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 3587788796799408565, guid: afb2355c8c3904144bb408de6f0cba59, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4253280567622488715, guid: afb2355c8c3904144bb408de6f0cba59, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -10656,7 +10671,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5639405848544218604, guid: afb2355c8c3904144bb408de6f0cba59, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.041
+      value: -0.003
       objectReference: {fileID: 0}
     - target: {fileID: 5639405848544218604, guid: afb2355c8c3904144bb408de6f0cba59, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10664,7 +10679,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5639405848544218604, guid: afb2355c8c3904144bb408de6f0cba59, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.653
+      value: -0.521
       objectReference: {fileID: 0}
     - target: {fileID: 5639405848544218604, guid: afb2355c8c3904144bb408de6f0cba59, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10684,11 +10699,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7750397243111347764, guid: afb2355c8c3904144bb408de6f0cba59, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 8536400945726557719, guid: afb2355c8c3904144bb408de6f0cba59, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
