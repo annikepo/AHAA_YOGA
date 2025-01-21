@@ -11,6 +11,7 @@ TagManager:
   - metablock
   - Wall
   - BuildingBlock Controller
+  - Target
   layers:
   - Default
   - TransparentFX
