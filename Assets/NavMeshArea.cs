@@ -9,6 +9,13 @@ public class MoveAgent : MonoBehaviour
     void Start()
     {
         NavMeshAgent agent = GetComponent<NavMeshAgent>();
-        agent.destination = target.position; // Set the target position
+        if (target != null)
+        {
+            agent.destination = target.position; // Set the target position
+        }
+        else
+        {
+            Debug.LogError("Target not assigned!");
+        }
     }
 }
