@@ -10,6 +10,7 @@ TagManager:
   - UtkataKonasana
   - metablock
   - Wall
+  - BuildingBlock Controller
   layers:
   - Default
   - TransparentFX
