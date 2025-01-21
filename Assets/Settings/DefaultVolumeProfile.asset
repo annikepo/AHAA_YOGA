@@ -501,7 +501,7 @@ MonoBehaviour:
     m_Value: {x: 1, y: 1}
   samples:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 3
   sampleDimmer:
     m_OverrideState: 1
     m_Value: 0.5
